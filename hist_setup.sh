@@ -11,5 +11,5 @@ sync_history()
 if [[ -n "$PROMPT_COMMAND" ]]; then
     PROMPT_COMMAND="sync_history; $PROMPT_COMMAND"
 else
-    PROMPT_COMMAND="sync_history"
+    export PROMPT_COMMAND="sync_history"
 fi
