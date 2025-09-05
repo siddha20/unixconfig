@@ -2,7 +2,7 @@
 
 set -e
 
-ConfigFile="$HOME/.lesskeys"
+ConfigFile="$HOME/.lesskey"
 
 # add keybindings.
 if [ ! -f "$ConfigFile" ]; then
