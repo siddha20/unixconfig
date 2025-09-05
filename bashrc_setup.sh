@@ -18,5 +18,6 @@ add_source()
 
 add_source "$HOME/.bashrc" "$HOME/unixconfig/less_setup.sh" '# For less'
 add_source "$HOME/.bashrc" "$HOME/unixconfig/hist_setup.sh" '# For history'
+add_source "$HOME/.bashrc" "$HOME/unixconfig/prompt_setup.sh" '# For prompt'
 
 source $HOME/.bashrc
