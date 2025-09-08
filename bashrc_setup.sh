@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -eo pipefail
-
 add_source() 
 {
   # $1 = rc file, $2 = file to source, $3 = comment to place above
