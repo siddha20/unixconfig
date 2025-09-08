@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -e
-
 sync_history()
 {
     builtin history -a
